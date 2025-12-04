@@ -86,4 +86,4 @@ The GitHub Actions workflow automatically:
 5. Containerized the application with Docker
 
 ## License
-Educational project for DevOps module
+Educational project for DevOps module - M1 SI
