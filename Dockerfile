@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Install system dependencies for PyQt6
 RUN apt-get update && apt-get install -y \
-    libgl1-mesa-glx \
+    libgl1 \
     libglib2.0-0 \
     libdbus-1-3 \
     libxkbcommon-x11-0 \
@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y \
     libxcb-render-util0 \
     libxcb-xinerama0 \
     libxcb-xfixes0 \
+    libxcb-shape0 \
     && rm -rf /var/lib/apt/lists/*
 
 # Copy requirements file
