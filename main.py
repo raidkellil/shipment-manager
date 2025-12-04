@@ -2,7 +2,7 @@
 """
 Main Application Entry Point
 Shipment Management System
-Created by: Benbouzid Khireddine
+Created by: Benbouzid Khireddine 
 """
 
 import sys
